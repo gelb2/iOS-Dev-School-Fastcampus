@@ -1,6 +1,6 @@
 //
-//  Heavy.h
-//  ClassGameCharacter20170117
+//  Sniper.h
+//  ClassCharacterSelfTest_20170118
 //
 //  Created by ji jun young on 2017. 1. 18..
 //  Copyright © 2017년 Fastcampus. All rights reserved.
@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class Heavy;
 
-@interface Heavy : NSObject
+@interface Sniper : NSObject
 
 @property NSString* name;
 
@@ -19,9 +20,12 @@
 
 @property NSInteger rangeAttackPower;
 
-- (id) meeleAttack:(Sniper *)to;
+@property BOOL move;
 
-- (id) rangeAttack:(Sniper *)to;
+- (id) meeleAttack:(Heavy *)Heavy;
 
+- (id) rangeAttack:(Heavy *)Heavy;
+
+- (id) movement;
 
 @end

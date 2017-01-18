@@ -6,9 +6,9 @@
 //  Copyright © 2017년 Fastcampus. All rights reserved.
 //
 
+@class Heavy;
 #import <Foundation/Foundation.h>
 
-@class Heavy;
 @interface Sniper : NSObject
 
 @property NSString* name;
@@ -19,10 +19,8 @@
 
 @property NSInteger rangeAttackPower;
 
-@property BOOL isDead;
+- (id) meeleAttack:(Heavy *)to;
 
-- (id)meeleAttack:(Heavy *)Heavy;
-
-- (id)rangeAttack:(Heavy *)Heavy;
+- (id) rangeAttack:(Heavy *)to;
 
 @end
