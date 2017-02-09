@@ -15,15 +15,15 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
     
-        [gugudan gugudanFormulaWhile:8];
-        [gugudan gugudanFormulaFor:4];
-        [gugudan gugudanFormulaForMinus:9];
-        [gugudan gugudanFormulaWhileMinus:9];
-        
+//        [gugudan gugudanFormulaWhile:8];
+//        [gugudan gugudanFormulaFor:4];
+//        [gugudan gugudanFormulaForMinus:9];
+//        [gugudan gugudanFormulaWhileMinus:9];
+//        
         [Factorial factorialWhile:10];
         [Factorial factorialFor:4];
-        [TriangleNumber triangleNumberWhile:3];
-        [TriangleNumber triangleNumberFor:5];
+//        [TriangleNumber triangleNumberWhile:3];
+//        [TriangleNumber triangleNumberFor:5];
         
         //while문은 중간에 값이 등장 시 멈춰야 할 때 사용
         //for문은 계속 10, 20번 돌려야 할 때 사용

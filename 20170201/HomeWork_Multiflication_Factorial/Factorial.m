@@ -35,11 +35,10 @@
     for (NSInteger count = 1; count <= input; count++) {
         
         subResult = count * subResult;
-        
+        NSLog(@"%lu", subResult);
     }
 
-    NSLog(@"%lu", subResult);
-    return subResult;
+    return 0;
     
 }
 
