@@ -39,6 +39,7 @@
     [self.view addSubview:self.mainScrollView];
     
     //스크롤뷰 생성...결과적으로 오른쪽으로 스크롤 시 자판기가 오른쪽에서부터 등장하게 됨
+    //self.mainScrollView.scrollEnabled = NO; 를 사용하면 맨 처음 뷰에서 스크롤을 해서 자판기에 갈 수 없음
     
     UIView *scrollViewDecoration = [[UIView alloc] initWithFrame:CGRectMake(0, 444.667, self.view.frame.size.width, self.view.frame.size.height * 1 / 3)];
     [scrollViewDecoration setBackgroundColor:[UIColor whiteColor]];
