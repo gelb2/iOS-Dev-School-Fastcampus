@@ -461,6 +461,7 @@
 - (void) insuffiientMoney{
     if (self.sum <= 0) {
         self.sumLabel.text = [NSString stringWithFormat:@"잔액이 부족합니다"];
+        self.sum = 0;
     }
 
     
