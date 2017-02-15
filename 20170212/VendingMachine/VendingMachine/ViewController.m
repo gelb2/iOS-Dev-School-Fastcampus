@@ -26,6 +26,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    
     CGFloat viewSizeWidth;
     viewSizeWidth = self. view.frame.size.width;
     CGFloat viewSizeHeight;
