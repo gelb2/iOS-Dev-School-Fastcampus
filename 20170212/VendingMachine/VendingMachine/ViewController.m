@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-<UITextFieldDelegate>
+<UITextFieldDelegate>T
 //텍스트뷰 델리게이트 선언은 기존 UIScrollview 델리게이트 선언 뒤에 , 하고 하면 됨
 
 @property NSInteger sum;
