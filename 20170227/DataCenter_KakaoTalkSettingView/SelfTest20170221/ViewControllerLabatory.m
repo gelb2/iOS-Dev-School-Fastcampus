@@ -64,6 +64,12 @@
     [headerView setCenter:CGPointMake(bigView.frame.size.width / 2, bigView.frame.size.height / 2)];
     [bigView addSubview:headerView];
     
+    UILabel *headerText = [[UILabel alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 2, 0, 300, 50)];
+    headerText.center = CGPointMake(bigView.frame.size.width / 2, bigView.frame.size.height / 2 + headerView.frame.size.height / 2 + 20);
+    headerText.text = @"Jun의 UI 카피 실험실";
+    headerText.textAlignment = NSTextAlignmentCenter;
+    [bigView addSubview:headerText];
+    
 //    [headerView setContentMode:UIViewContentModeScaleAspectFit];
 //    [headerView setAutoresizesSubviews:YES];
     
@@ -99,7 +105,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 150;
+    return 200;
 }
 
 - (void)didReceiveMemoryWarning {
