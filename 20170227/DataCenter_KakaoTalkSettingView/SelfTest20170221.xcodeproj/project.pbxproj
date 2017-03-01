@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		917FA3611E659B9B00B9BBAB /* CustomTableViewCellLabatory.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FA3601E659B9B00B9BBAB /* CustomTableViewCellLabatory.m */; };
+		917FA3641E65A5BB00B9BBAB /* ViewControllerLabatory.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FA3631E65A5BB00B9BBAB /* ViewControllerLabatory.m */; };
+		917FA3661E65ABBA00B9BBAB /* kakaoLabatory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 917FA3651E65ABBA00B9BBAB /* kakaoLabatory.jpg */; };
 		9180FB5C1E5C50390034CD59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9180FB5B1E5C50390034CD59 /* main.m */; };
 		9180FB5F1E5C50390034CD59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9180FB5E1E5C50390034CD59 /* AppDelegate.m */; };
 		9180FB621E5C50390034CD59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9180FB611E5C50390034CD59 /* ViewController.m */; };
@@ -81,6 +84,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		917FA35F1E659B9B00B9BBAB /* CustomTableViewCellLabatory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCellLabatory.h; sourceTree = "<group>"; };
+		917FA3601E659B9B00B9BBAB /* CustomTableViewCellLabatory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCellLabatory.m; sourceTree = "<group>"; };
+		917FA3621E65A5BB00B9BBAB /* ViewControllerLabatory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLabatory.h; sourceTree = "<group>"; };
+		917FA3631E65A5BB00B9BBAB /* ViewControllerLabatory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLabatory.m; sourceTree = "<group>"; };
+		917FA3651E65ABBA00B9BBAB /* kakaoLabatory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kakaoLabatory.jpg; sourceTree = "<group>"; };
 		9180FB571E5C50390034CD59 /* SelfTest20170221.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfTest20170221.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9180FB5B1E5C50390034CD59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9180FB5D1E5C50390034CD59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -213,9 +221,14 @@
 				91D44B5F1E5DFCFE005A610E /* ViewControllerFourth.m */,
 				91D44B7B1E5E02B8005A610E /* ViewControllerFifth.h */,
 				91D44B7C1E5E02B8005A610E /* ViewControllerFifth.m */,
+				917FA3621E65A5BB00B9BBAB /* ViewControllerLabatory.h */,
+				917FA3631E65A5BB00B9BBAB /* ViewControllerLabatory.m */,
 				91D44B7E1E5E0630005A610E /* CustomTableViewCell.h */,
 				91D44B7F1E5E0630005A610E /* CustomTableViewCell.m */,
+				917FA35F1E659B9B00B9BBAB /* CustomTableViewCellLabatory.h */,
+				917FA3601E659B9B00B9BBAB /* CustomTableViewCellLabatory.m */,
 				9180FB631E5C50390034CD59 /* Main.storyboard */,
+				917FA3651E65ABBA00B9BBAB /* kakaoLabatory.jpg */,
 				9180FB8D1E5C5B550034CD59 /* arrowBack.png */,
 				9180FB8E1E5C5B550034CD59 /* arrowFront.png */,
 				9180FB9A1E5DCF620034CD59 /* pic2.png */,
@@ -436,6 +449,7 @@
 				91D44B791E5DFD8B005A610E /* thiswarofmine.jpg in Resources */,
 				9180FBAE1E5DCF620034CD59 /* pic6.png in Resources */,
 				9180FBA51E5DCF620034CD59 /* pic2.png in Resources */,
+				917FA3661E65ABBA00B9BBAB /* kakaoLabatory.jpg in Resources */,
 				9180FBA61E5DCF620034CD59 /* pic3.png in Resources */,
 				918DC5BC1E6335B5007A1C3B /* transistorheader.jpg in Resources */,
 				918DC5B91E6335B5007A1C3B /* shadowgunheader.jpg in Resources */,
@@ -469,7 +483,9 @@
 				91D44B601E5DFCFE005A610E /* ViewControllerFourth.m in Sources */,
 				91D44B7D1E5E02B8005A610E /* ViewControllerFifth.m in Sources */,
 				9180FB621E5C50390034CD59 /* ViewController.m in Sources */,
+				917FA3641E65A5BB00B9BBAB /* ViewControllerLabatory.m in Sources */,
 				9180FB961E5C68590034CD59 /* ViewControllerThird.m in Sources */,
+				917FA3611E659B9B00B9BBAB /* CustomTableViewCellLabatory.m in Sources */,
 				9180FB5F1E5C50390034CD59 /* AppDelegate.m in Sources */,
 				9180FB5C1E5C50390034CD59 /* main.m in Sources */,
 				91D44B801E5E0630005A610E /* CustomTableViewCell.m in Sources */,

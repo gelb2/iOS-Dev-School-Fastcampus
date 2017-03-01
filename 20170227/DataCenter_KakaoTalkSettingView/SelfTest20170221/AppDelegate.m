@@ -24,6 +24,7 @@
     [[DataCenter sharedInstance] settingArrayImage];
     [[DataCenter sharedInstance] settingArrayDeveloper];
     [[DataCenter sharedInstance] settingArrayHeaderImage];
+    [[DataCenter sharedInstance] settingArrayDescriptionText];
 //상단의 코드에서 데이터센터 세팅 및 메소드 호출을 하지 않으면, 하단의 코드는 오작동이 남...setting이하 메소드들이 호출되지 않아 값이 세팅되지 않았으므로. 하단 코드는 nil값을 불러오게 되므로 오작동이 남
     //    self.headerImage.image = [UIImage imageNamed:[[DataCenter sharedInstance].arrayHeaderImage objectAtIndex:[DataCenter sharedInstance].currentRow]];
     //앱 델리게이트에서 상단 코드로 메소드를 호출하고 싶지 않다면, 하단에서 처럼 해당 셀이나 뷰 컨트롤러에서 데이터센터의 메소드를 호출해서 값을 세팅해주는 방법도 있음

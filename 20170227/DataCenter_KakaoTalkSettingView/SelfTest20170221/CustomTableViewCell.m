@@ -100,7 +100,7 @@
     descriptionText.textAlignment = NSTextAlignmentCenter;
     [self.descriptionText setLineBreakMode:NSLineBreakByWordWrapping];
     [self.descriptionText setNumberOfLines:0];
-    self.descriptionText.text = @"If you've not already played this brilliant, heart-wrenching game, then mobile is as good a place as any to let it completely destroy you. 9/10, Pocket Gamer UK";
+    self.descriptionText.text = [[DataCenter sharedInstance].arrayDescriptionText objectAtIndex:[DataCenter sharedInstance].currentRow];
     [self.descriptionView addSubview:descriptionText];
     
 }
@@ -176,7 +176,7 @@
 }
 
 
-//빅뷰의 사이즈를 컨텐츠뷰에 맞춰주는 메소드를 오버라이드 해서 쓰는 것임
+//빅뷰의 사이즈를 컨텐츠뷰에 맞춰줌
 - (void)layoutSubviews{
     
     [self settingCustomCell];

@@ -10,6 +10,7 @@
 #import "ViewControllerFirst.h"
 #import "ViewControllerThird.h"
 #import "ViewControllerFourth.h"
+#import "ViewControllerLabatory.h"
 
 @interface ViewController ()
 <UITableViewDelegate, UITableViewDataSource>
@@ -28,7 +29,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     /////////////////텍스트 어레이, 이미지 어레이 생성////////////////////
-    self.textArraySection0 = [[NSArray alloc]initWithObjects:@"공지사항", @"실험실", @"버전정보", nil];
+    self.textArraySection0 = [[NSArray alloc]initWithObjects:@"공지사항", @"실험실(테이블뷰가 있는 메인)", @"버전정보", nil];
     self.textArraySection1 = [[NSArray alloc] initWithObjects:@"개인 및 보안", @"알림 및 친구(스위치가 있는 메인)",@"채팅", @"화면",@"게임(테이블뷰가 있는 메인)",@"기타", nil];
     
     
@@ -353,8 +354,23 @@
 //셀 눌렀을 때 다른 뷰로 가게 하는 메소드
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            ViewControllerThird *thirdView = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewControllerThird"];
+            [self.navigationController pushViewController:thirdView animated:YES];
+            
+        }
+        else if (indexPath.row == 1){
+            ViewControllerLabatory *viewControllerLabatory = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewControllerLabatory"];
+            [self.navigationController pushViewController:viewControllerLabatory animated:YES];
+        }
+        else{
+            ViewControllerThird *thirdView = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewControllerThird"];
+            [self.navigationController pushViewController:thirdView animated:YES];
+        }
+    }
     
-    if (indexPath.section == 1) {
+    else if (indexPath.section == 1) {
         if (indexPath.row == 4) {
             ViewControllerFourth *fourthView = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewControllerFourth"];
             [self.navigationController pushViewController:fourthView animated:YES];

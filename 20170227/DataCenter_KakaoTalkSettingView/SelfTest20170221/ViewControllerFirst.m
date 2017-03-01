@@ -139,10 +139,12 @@ return YES;
 }
 
 //노티피케이션 센터 만들어 보기--키보드 올라오면 화면이 자동으로 올라가게 하기
+//키보드 올라오는 애니메이션이 부자연 스러운 것은, UIKeyboardDidShowNotification 이 did이기 때문임...will로 설정해야 함
+//will로 설정하면 애니메이트 윗 듀레이션을 따로 줄 필요도 없음
 
 - (void)addingKeyboardObserver{
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didShowKeyboardNotification:) name:UIKeyboardDidShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didShowKeyboardNotification:) name:UIKeyboardWillShowNotification object:nil];
     
 }
 
@@ -153,9 +155,11 @@ return YES;
     
     CGFloat keyboardHeight = [[sender.userInfo objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size.height;
     
-    [UIView animateWithDuration:0.3 animations:^{
-       [self.bigView setCenter:CGPointMake(self.view.frame.size.width / 2, keyboardHeight - 100)];
-    }];
+    [self.bigView setCenter:CGPointMake(self.view.frame.size.width / 2, keyboardHeight - 100)];
+    //UIKeyboarddidShowNotification 를 will로 바꾸면 애니메이트 윗 듀레이션은 설정할 필요 없음
+//    [UIView animateWithDuration:0.3 animations:^{
+//       [self.bigView setCenter:CGPointMake(self.view.frame.size.width / 2, keyboardHeight - 100)];
+//    }];
     
     
     
@@ -165,20 +169,27 @@ return YES;
 
 
 //////////*노티피케이션 센터 만들어 보기--키보드 내려가면 화면이 자동으로 내려가게 하기*///////////////////
+//노티피케이션 센터 만들어 보기--키보드 올라오면 화면이 자동으로 올라가게 하기
+//키보드 올라오는 애니메이션이 부자연 스러운 것은, UIKeyboardDidShowNotification 이 did이기 때문임...will로 설정해야 함
+//will로 설정하면 애니메이트 윗 듀레이션을 따로 줄 필요도 없음
+
 
 - (void)addingKeyboardObserver2{
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didHideKeyboardNotification:) name:UIKeyboardDidHideNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didHideKeyboardNotification:) name:UIKeyboardWillHideNotification object:nil];
 }
 
 - (void) didHideKeyboardNotification:(NSNotification *)sender{
     
+    
+    [self.bigView setCenter:CGPointMake(self.view.frame.size.width / 2, self.view.frame.size.height / 2)];
 //    로그 테스트 완료했으므로 주석 처리함
 //    NSLog(@"키보드노티피케이션2 테스트");
     
-    [UIView animateWithDuration:0.3 animations:^{
-        [self.bigView setCenter:CGPointMake(self.view.frame.size.width / 2, self.view.frame.size.height / 2)];
-        
-    }];
+    //UIKeyboarddidHideNotification 를 will로 바꾸면 애니메이트 윗 듀레이션은 설정할 필요 없음
+//    [UIView animateWithDuration:0.3 animations:^{
+//        [self.bigView setCenter:CGPointMake(self.view.frame.size.width / 2, self.view.frame.size.height / 2)];
+//        
+//    }];
     
 }
 

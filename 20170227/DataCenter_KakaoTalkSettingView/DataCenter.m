@@ -78,4 +78,13 @@
     
 }
 
+-(NSArray *)settingArrayDescriptionText{
+    NSArray *arrayDescriptionText = [[NSArray alloc]initWithObjects:@"They’ve made what could be the best multiplayer shooting experience on a mobile device.“ – TouchGen",@"Features: Stunning console-quality graphics, first-class voice acting and Hollywood-grade audio production.",@"The player leads the princess Ida through mazes of optical illusions and impossible objects while manipulating the world around her to reach various platforms.",@"FROM THE CREATORS OF BASTION: Experience a science fiction action RPG like no other! Wield an extraordinary weapon of unknown origin as you fight through a stunning futuristic city.",@" AbyssRium is a game that helps relax your nerve. Level up your Stone, create your own fish and make the Aquarium belongs to you! A beautiful ocean world waiting for you to explore!",@"Bastion for iPad is just as good if not better than its console brethren.- TouchArcade (5 stars out of 5)",@"If you've not already played this brilliant, heart-wrenching game, then mobile is as good a place as any to let it completely destroy you. 9/10, Pocket Gamer UK",@"nfinity Blade was the fastest-grossing app in the history of iOS upon its release. It made US$1.6 million in its first four days, and over US$23 million by the end of 2011.",@"The visuals in Prune are stunningly beautiful. The game features a minimal look and feel to it, with rich, vibrant colors and deep blacks that contrast nicely with the creamy beige.",@"In Tengami you explore a beautifully crafted pop-up book world, with an art style inspired by traditional Japanese arts and crafts. Tengami is an atmospheric adventure game, full of wonder and mystery, set in Japan of ancient dark fairy tales. Flip, fold, slide and pull parts of the world to solve puzzles and discover secrets.",@"Take your part on saving the world and win unbelievable real prizes in specially designed tournaments. Earn the money every day from oil fields!",@"Explore the ITALIAN RENAISSANCE through the eyes of your OWN ASSASSIN, complete dozens of missions and unravel the epic mystery of The Crows.",@"When people think of mobile games, I know that one of the first few games that come to mind are endless runners or match-three puzzle games.", nil];
+    self.arrayDescriptionText = arrayDescriptionText;
+    
+    return self.arrayDescriptionText;
+    
+    
+}
+
 @end

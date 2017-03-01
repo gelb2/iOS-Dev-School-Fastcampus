@@ -20,6 +20,8 @@
 
 @property NSArray *arrayHeaderImage;
 
+@property NSArray *arrayDescriptionText;
+
 //싱글턴객체는 프로그램이 종료될 때까지 살아 있고, 새로운 값을 넣으면 차후에 다른 값을 넣을 때까지 해당 값으로 작동된다. 따라서
 // viewcontrollerFourth의 didselectRowAtIndexPath에서 indexpath.row 값을 currentRow값에 넣어준 것임
 //- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -37,5 +39,7 @@
 -(NSArray *)settingArrayDeveloper;
 
 -(NSArray *)settingArrayHeaderImage;
+
+-(NSArray *)settingArrayDescriptionText;
 
 @end
