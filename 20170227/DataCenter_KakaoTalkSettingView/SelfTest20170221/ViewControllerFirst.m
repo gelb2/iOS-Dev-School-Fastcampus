@@ -59,6 +59,8 @@
     
     [self.bigView addSubview:self.identification];
     
+    
+    
 //    //테스트...더 필요 없으므로 주석 처리함
 //    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
 //    [label setText:@"ViewControllerFirst"];

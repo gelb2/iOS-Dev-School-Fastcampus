@@ -26,6 +26,7 @@
     tableView.dataSource = self;
     [self.view addSubview:tableView];
     
+    
 }
 
 ///////////////* 섹션 갯수 설정 *///////////////////////////
