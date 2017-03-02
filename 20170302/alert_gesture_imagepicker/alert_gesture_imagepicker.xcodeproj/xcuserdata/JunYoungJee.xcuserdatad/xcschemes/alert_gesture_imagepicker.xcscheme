@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91AE27D31E67B7B1007F8E2B"
-               BuildableName = "AlertController.app"
-               BlueprintName = "AlertController"
-               ReferencedContainer = "container:AlertController.xcodeproj">
+               BlueprintIdentifier = "91F3909F1E682772008C55C2"
+               BuildableName = "alert_gesture_imagepicker.app"
+               BlueprintName = "alert_gesture_imagepicker"
+               ReferencedContainer = "container:alert_gesture_imagepicker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91AE27EC1E67B7B2007F8E2B"
-               BuildableName = "AlertControllerTests.xctest"
-               BlueprintName = "AlertControllerTests"
-               ReferencedContainer = "container:AlertController.xcodeproj">
+               BlueprintIdentifier = "91F390B81E682773008C55C2"
+               BuildableName = "alert_gesture_imagepickerTests.xctest"
+               BlueprintName = "alert_gesture_imagepickerTests"
+               ReferencedContainer = "container:alert_gesture_imagepicker.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91AE27F71E67B7B2007F8E2B"
-               BuildableName = "AlertControllerUITests.xctest"
-               BlueprintName = "AlertControllerUITests"
-               ReferencedContainer = "container:AlertController.xcodeproj">
+               BlueprintIdentifier = "91F390C31E682773008C55C2"
+               BuildableName = "alert_gesture_imagepickerUITests.xctest"
+               BlueprintName = "alert_gesture_imagepickerUITests"
+               ReferencedContainer = "container:alert_gesture_imagepicker.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "91AE27D31E67B7B1007F8E2B"
-            BuildableName = "AlertController.app"
-            BlueprintName = "AlertController"
-            ReferencedContainer = "container:AlertController.xcodeproj">
+            BlueprintIdentifier = "91F3909F1E682772008C55C2"
+            BuildableName = "alert_gesture_imagepicker.app"
+            BlueprintName = "alert_gesture_imagepicker"
+            ReferencedContainer = "container:alert_gesture_imagepicker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "91AE27D31E67B7B1007F8E2B"
-            BuildableName = "AlertController.app"
-            BlueprintName = "AlertController"
-            ReferencedContainer = "container:AlertController.xcodeproj">
+            BlueprintIdentifier = "91F3909F1E682772008C55C2"
+            BuildableName = "alert_gesture_imagepicker.app"
+            BlueprintName = "alert_gesture_imagepicker"
+            ReferencedContainer = "container:alert_gesture_imagepicker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "91AE27D31E67B7B1007F8E2B"
-            BuildableName = "AlertController.app"
-            BlueprintName = "AlertController"
-            ReferencedContainer = "container:AlertController.xcodeproj">
+            BlueprintIdentifier = "91F3909F1E682772008C55C2"
+            BuildableName = "alert_gesture_imagepicker.app"
+            BlueprintName = "alert_gesture_imagepicker"
+            ReferencedContainer = "container:alert_gesture_imagepicker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,6 +1,6 @@
 //
-//  AlertControllerUITests.m
-//  AlertControllerUITests
+//  alert_gesture_imagepickerUITests.m
+//  alert_gesture_imagepickerUITests
 //
 //  Created by ji jun young on 2017. 3. 2..
 //  Copyright © 2017년 Fastcampus. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface AlertControllerUITests : XCTestCase
+@interface alert_gesture_imagepickerUITests : XCTestCase
 
 @end
 
-@implementation AlertControllerUITests
+@implementation alert_gesture_imagepickerUITests
 
 - (void)setUp {
     [super setUp];

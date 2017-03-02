@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  AlertController
+//  alert_gesture_imagepicker
 //
 //  Created by ji jun young on 2017. 3. 2..
 //  Copyright © 2017년 Fastcampus. All rights reserved.

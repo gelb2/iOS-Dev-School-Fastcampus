@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AlertController.xcscheme</key>
+		<key>alert_gesture_imagepicker.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>91AE27D31E67B7B1007F8E2B</key>
+		<key>91F3909F1E682772008C55C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91AE27EC1E67B7B2007F8E2B</key>
+		<key>91F390B81E682773008C55C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91AE27F71E67B7B2007F8E2B</key>
+		<key>91F390C31E682773008C55C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
