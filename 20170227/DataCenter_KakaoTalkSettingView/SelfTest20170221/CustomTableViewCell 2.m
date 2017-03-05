@@ -152,8 +152,6 @@
     self.descriptionView.frame = CGRectMake(offsetX, offsetY, self.bigView.frame.size.width - (MARGIN*2), 70);
     self.descriptionText.frame = CGRectMake(offsetX, 0, self.descriptionView.frame.size.width - (MARGIN*4), 70);
     
-    
-    
 }
 
 //초기화 메소드에 객체 만들기, 셀 세팅, 뷰 컬러 설정 메소드 호출 집어넣음

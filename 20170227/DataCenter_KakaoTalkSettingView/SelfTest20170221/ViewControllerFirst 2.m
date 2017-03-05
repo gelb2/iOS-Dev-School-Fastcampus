@@ -17,8 +17,6 @@
 @property UITextField *password;
 @property UIButton *login;
 
-@property (nonatomic) UIAlertController *alertcontroller1;
-
 
 @end
 
@@ -97,23 +95,9 @@
     [self addingKeyboardObserver2];
     [self addingIdentificationObserver];
     [self addingPasscodeObserver];
-    
-    //얼럿 컨트롤러 생성...
-    self.alertcontroller1 = [UIAlertController alertControllerWithTitle:@"Oops!" message:@"아이디와 패스코드가 틀립니다" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        //확인을 누르면 자동으로 커서가 ID입력 레이블로 가도록 become,resignFirstResponder를 설정함
-        [self.identification becomeFirstResponder];
-        [self.password resignFirstResponder];
-    }];
-    
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"취소" style:UIAlertActionStyleDestructive handler:nil];
-    [self.alertcontroller1 addAction:okAction];
-    [self.alertcontroller1 addAction:cancelAction];
-    
-    
 }
 
-//맞는 아이디와 패스워드를 치면 다른 뷰컨트롤러로 넘어감...
+//맞는 아이디와 패스워드를 치면 다른 뷰컨트롤러로 넘어감
 - (void)nextView:(UIButton *) sender {
     if ([self.identification.text isEqualToString:@"Jun"] && [self.password.text isEqualToString:@"Jyjee"]) {
         ViewController *View = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
@@ -124,10 +108,6 @@
         //한 번 뒤로가기 버튼을 눌렀을 때 네비게이션 바가 사라지게 하는 것은 성공함. 다시 로그인을 했을때 나타나게 하는 것 성공함
 //        [self.navigationController setNavigationBarHidden:NO animated:YES];
 
-        
-    }//아이디와 패스워드가 틀리면 AlertController1이 띄워짐
-    else{
-        [self presentViewController:self.alertcontroller1 animated:YES completion:nil];
         
     }
     
