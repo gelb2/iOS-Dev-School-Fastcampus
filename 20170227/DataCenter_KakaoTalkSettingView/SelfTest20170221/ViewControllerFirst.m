@@ -76,6 +76,10 @@
     [self.password setTextAlignment:NSTextAlignmentCenter];
     [self.password setBorderStyle:UITextBorderStyleBezel];
     [self.password setPlaceholder:@"Passcode : Jyjee"];
+    
+    //패스워드 입력 시 '가려지도록' 프로퍼티 부여
+    self.password.secureTextEntry =YES;
+    
     self.password.delegate = self;
     self.password.tag = 200;
     [self.bigView addSubview:self.password];
