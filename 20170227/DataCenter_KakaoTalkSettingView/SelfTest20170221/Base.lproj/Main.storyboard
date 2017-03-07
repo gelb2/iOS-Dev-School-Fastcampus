@@ -99,6 +99,70 @@
             </objects>
             <point key="canvasLocation" x="3286" y="93"/>
         </scene>
+        <!--View Controller User Location-->
+        <scene sceneID="Gfx-nB-0mI">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerUserLocation" id="mSZ-Ew-dTU" customClass="ViewControllerUserLocation" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t7p-Lq-j4d"/>
+                        <viewControllerLayoutGuide type="bottom" id="RwT-1R-fcV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dPG-iw-7nW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QYb-D3-nBW">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="QYb-D3-nBW" secondAttribute="trailing" id="ShT-NH-yJi"/>
+                            <constraint firstItem="QYb-D3-nBW" firstAttribute="leading" secondItem="dPG-iw-7nW" secondAttribute="leading" id="eKC-ub-d2f"/>
+                            <constraint firstItem="RwT-1R-fcV" firstAttribute="top" secondItem="QYb-D3-nBW" secondAttribute="bottom" id="fon-lP-L1U"/>
+                            <constraint firstItem="QYb-D3-nBW" firstAttribute="top" secondItem="t7p-Lq-j4d" secondAttribute="bottom" id="kPm-um-62Q"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapViewTest" destination="QYb-D3-nBW" id="3qZ-xi-l5a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BCp-Ks-cEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4038" y="81"/>
+        </scene>
+        <!--View Controller Developer Location-->
+        <scene sceneID="FTB-5Z-nZh">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerDeveloperLocation" id="Rvf-E4-bdB" customClass="ViewControllerDeveloperLocation" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GGF-QH-tvv"/>
+                        <viewControllerLayoutGuide type="bottom" id="zbM-pd-LRQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Zh-54-G1i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="koq-1w-yam">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="koq-1w-yam" secondAttribute="trailing" id="2Ce-8y-II7"/>
+                            <constraint firstItem="koq-1w-yam" firstAttribute="leading" secondItem="4Zh-54-G1i" secondAttribute="leading" id="9pe-UZ-n5B"/>
+                            <constraint firstItem="zbM-pd-LRQ" firstAttribute="top" secondItem="koq-1w-yam" secondAttribute="bottom" id="Vpm-Wr-zTa"/>
+                            <constraint firstItem="koq-1w-yam" firstAttribute="top" secondItem="GGF-QH-tvv" secondAttribute="bottom" id="evd-Mv-auy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapViewTest" destination="koq-1w-yam" id="v10-p6-n2B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zWP-Gz-WGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4542" y="83"/>
+        </scene>
         <!--View Controller First-->
         <scene sceneID="ts5-uI-aLQ">
             <objects>

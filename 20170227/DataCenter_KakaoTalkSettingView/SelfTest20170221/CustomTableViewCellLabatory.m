@@ -20,7 +20,7 @@
 
 - (void)makingCustomCellObject{
     //테이블뷰에 실릴 텍스트 어레이로 정렬 및 이미지 뷰 세팅
-    self.textArray = [[NSArray alloc]initWithObjects:@"일정 간편 등록",@"키워드 알림",@"우박 내리는 채팅방",@"롱탭검색", nil];
+    self.textArray = [[NSArray alloc]initWithObjects:@"일정 간편 등록",@"키워드 알림",@"우박 내리는 채팅방",@"롱탭검색", @"나의 위치 체크", @"개발자 출몰 지역 확인", nil];
     //루트 뷰에 총괄용 빅 뷰 올림
     UIView *bigView = [[UIView alloc]init];
     self.bigView = bigView;
