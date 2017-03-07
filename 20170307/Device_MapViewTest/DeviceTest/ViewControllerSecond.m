@@ -1,0 +1,93 @@
+//
+//  ViewControllerSecond.m
+//  DeviceTest
+//
+//  Created by ji jun young on 2017. 3. 7..
+//  Copyright © 2017년 Fastcampus. All rights reserved.
+//
+
+#import "ViewControllerSecond.h"
+#import "Annotation.h"
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+
+//지도에 특정 위치를 표시하기 위한 위도 경도 선언
+const CGFloat LATITUDE = 37.534993;
+const CGFloat LONGITUDE = 126.993521;
+
+
+@interface ViewControllerSecond ()
+<MKMapViewDelegate>
+
+//스토리보드에서 뷰컨트롤러와 맵뷰 생성 후 m파일과 연결함
+@property (weak, nonatomic) IBOutlet MKMapView *mapViewTest;
+
+@end
+
+@implementation ViewControllerSecond
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
+///////////////////////////* 지도 만들어 보고 특정 위치 바로 표시해보기 예제 *////////////
+    
+    CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(LATITUDE, LONGITUDE);
+    MKCoordinateSpan span = MKCoordinateSpanMake(0.01, 0.01);
+    MKCoordinateRegion region = MKCoordinateRegionMake(coordinate, span);
+    self.mapViewTest.delegate = self;
+    [self.mapViewTest setRegion:region];
+    
+//////////////////////////* 맵에 찍힐 핀 만들기 예제 *//////////////////////
+    
+    Annotation *annotationTest = [[Annotation alloc]initWithTitle:@"myPosition" AndCoordinate:coordinate];
+    [self.mapViewTest addAnnotation:annotationTest];
+    
+}
+
+////////////////////* 핀 위한 델리게이트 메소드의 작성, 셀의 deque설정과 유사함 */////////////////
+- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation{
+    //   kPinAnnotationIdentifier 부분은 pin을 잘못 쓸 것을 대비하여 const 형태로 선언한 것
+    //    static NSString * const kPinAnnotationIdentifier = @"pin";
+    MKAnnotationView *newAnnotation = (MKAnnotationView*)[self.mapViewTest dequeueReusableAnnotationViewWithIdentifier:@"pin"];
+    if (newAnnotation == nil) {
+        Annotation *myAnnotation = (Annotation *)annotation;
+        newAnnotation = [[MKAnnotationView alloc]initWithAnnotation:myAnnotation reuseIdentifier:@"pin"];
+        
+        //핀을 커스텀하게 만들고자 uiview를 만들고 addsub함
+        UIView *viewForAnnotation = [[UIView alloc]init];
+//        viewForAnnotation.backgroundColor = [UIColor blueColor];
+        viewForAnnotation.frame = CGRectMake(0, 0, 80, 80);
+        newAnnotation.frame = CGRectMake(0, 0, 80, 80);
+        [newAnnotation addSubview:viewForAnnotation];
+        
+        //핀에 임의의 이미지를 넣고자 상단의 백그라운드 컬러를 주석처리하고 별도의 이미지를 uiview에 addsubview함
+        UIImageView *imageViewForAnnotation = [[UIImageView alloc]init];
+        imageViewForAnnotation.image = [UIImage imageNamed:@"gelbpin.png"];
+        imageViewForAnnotation.frame = CGRectMake(0, 0, 80, 80);
+        [viewForAnnotation addSubview:imageViewForAnnotation];
+        
+    }
+    
+    return newAnnotation;
+    
+}
+
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
