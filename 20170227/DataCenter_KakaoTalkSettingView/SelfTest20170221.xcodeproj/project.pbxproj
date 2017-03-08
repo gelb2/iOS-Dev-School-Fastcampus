@@ -44,6 +44,12 @@
 		918DC5BB1E6335B5007A1C3B /* implosionheader.png in Resources */ = {isa = PBXBuildFile; fileRef = 918DC5AF1E6335B5007A1C3B /* implosionheader.png */; };
 		918DC5BC1E6335B5007A1C3B /* transistorheader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 918DC5B01E6335B5007A1C3B /* transistorheader.jpg */; };
 		918DC5BD1E6335B5007A1C3B /* bastionheader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 918DC5B11E6335B5007A1C3B /* bastionheader.jpg */; };
+		9195FBF61E6EE37400382A6E /* ViewControllerUserLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195FBF51E6EE37400382A6E /* ViewControllerUserLocation.m */; };
+		9195FBF91E6EE7DE00382A6E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9195FBF81E6EE7DE00382A6E /* MapKit.framework */; };
+		9195FBFB1E6EE7E500382A6E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9195FBFA1E6EE7E500382A6E /* CoreLocation.framework */; };
+		9195FBFE1E6EE84E00382A6E /* ViewControllerDeveloperLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195FBFD1E6EE84E00382A6E /* ViewControllerDeveloperLocation.m */; };
+		9195FC011E6EE95E00382A6E /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195FC001E6EE95E00382A6E /* Annotation.m */; };
+		9195FC031E6EEA0B00382A6E /* gelbpin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9195FC021E6EEA0B00382A6E /* gelbpin.png */; };
 		919704FD1E5EAF0C003C9566 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 919704FC1E5EAF0C003C9566 /* DataCenter.m */; };
 		91D44B601E5DFCFE005A610E /* ViewControllerFourth.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D44B5F1E5DFCFE005A610E /* ViewControllerFourth.m */; };
 		91D44B6E1E5DFD8B005A610E /* abyssrium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91D44B611E5DFD8B005A610E /* abyssrium.jpg */; };
@@ -133,6 +139,15 @@
 		918DC5AF1E6335B5007A1C3B /* implosionheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = implosionheader.png; sourceTree = "<group>"; };
 		918DC5B01E6335B5007A1C3B /* transistorheader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = transistorheader.jpg; sourceTree = "<group>"; };
 		918DC5B11E6335B5007A1C3B /* bastionheader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bastionheader.jpg; sourceTree = "<group>"; };
+		9195FBF41E6EE37400382A6E /* ViewControllerUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerUserLocation.h; sourceTree = "<group>"; };
+		9195FBF51E6EE37400382A6E /* ViewControllerUserLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerUserLocation.m; sourceTree = "<group>"; };
+		9195FBF81E6EE7DE00382A6E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9195FBFA1E6EE7E500382A6E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9195FBFC1E6EE84E00382A6E /* ViewControllerDeveloperLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDeveloperLocation.h; sourceTree = "<group>"; };
+		9195FBFD1E6EE84E00382A6E /* ViewControllerDeveloperLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDeveloperLocation.m; sourceTree = "<group>"; };
+		9195FBFF1E6EE95E00382A6E /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		9195FC001E6EE95E00382A6E /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		9195FC021E6EEA0B00382A6E /* gelbpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gelbpin.png; sourceTree = "<group>"; };
 		919704FB1E5EAF0C003C9566 /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataCenter.h; path = ../DataCenter.h; sourceTree = "<group>"; };
 		919704FC1E5EAF0C003C9566 /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataCenter.m; path = ../DataCenter.m; sourceTree = "<group>"; };
 		91D44B5E1E5DFCFE005A610E /* ViewControllerFourth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFourth.h; sourceTree = "<group>"; };
@@ -164,6 +179,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9195FBFB1E6EE7E500382A6E /* CoreLocation.framework in Frameworks */,
+				9195FBF91E6EE7DE00382A6E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +208,7 @@
 				9180FB731E5C503A0034CD59 /* SelfTest20170221Tests */,
 				9180FB7E1E5C503A0034CD59 /* SelfTest20170221UITests */,
 				9180FB581E5C50390034CD59 /* Products */,
+				9195FBF71E6EE7DE00382A6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,9 +242,15 @@
 				917FA3621E65A5BB00B9BBAB /* ViewControllerLabatory.h */,
 				917FA3631E65A5BB00B9BBAB /* ViewControllerLabatory.m */,
 				91D44B7E1E5E0630005A610E /* CustomTableViewCell.h */,
+				9195FBF41E6EE37400382A6E /* ViewControllerUserLocation.h */,
+				9195FBF51E6EE37400382A6E /* ViewControllerUserLocation.m */,
+				9195FBFC1E6EE84E00382A6E /* ViewControllerDeveloperLocation.h */,
+				9195FBFD1E6EE84E00382A6E /* ViewControllerDeveloperLocation.m */,
 				91D44B7F1E5E0630005A610E /* CustomTableViewCell.m */,
 				917FA35F1E659B9B00B9BBAB /* CustomTableViewCellLabatory.h */,
 				917FA3601E659B9B00B9BBAB /* CustomTableViewCellLabatory.m */,
+				9195FBFF1E6EE95E00382A6E /* Annotation.h */,
+				9195FC001E6EE95E00382A6E /* Annotation.m */,
 				9180FB631E5C50390034CD59 /* Main.storyboard */,
 				917FA3651E65ABBA00B9BBAB /* kakaoLabatory.jpg */,
 				9180FB8D1E5C5B550034CD59 /* arrowBack.png */,
@@ -269,6 +293,7 @@
 				918DC5A91E6335B5007A1C3B /* deadtrigger2header.jpg */,
 				918DC5AA1E6335B5007A1C3B /* assasincreedheader.jpg */,
 				918DC5AB1E6335B5007A1C3B /* neveraloneheader.jpg */,
+				9195FC021E6EEA0B00382A6E /* gelbpin.png */,
 				9180FB661E5C50390034CD59 /* Assets.xcassets */,
 				9180FB681E5C50390034CD59 /* LaunchScreen.storyboard */,
 				9180FB6B1E5C50390034CD59 /* Info.plist */,
@@ -301,6 +326,15 @@
 				9180FB811E5C503A0034CD59 /* Info.plist */,
 			);
 			path = SelfTest20170221UITests;
+			sourceTree = "<group>";
+		};
+		9195FBF71E6EE7DE00382A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9195FBFA1E6EE7E500382A6E /* CoreLocation.framework */,
+				9195FBF81E6EE7DE00382A6E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,6 +463,7 @@
 				918DC5BD1E6335B5007A1C3B /* bastionheader.jpg in Resources */,
 				918DC5B41E6335B5007A1C3B /* tengamiheader.jpg in Resources */,
 				91D44B741E5DFD8B005A610E /* monumentvalley.jpg in Resources */,
+				9195FC031E6EEA0B00382A6E /* gelbpin.png in Resources */,
 				9180FBA81E5DCF620034CD59 /* pic11.png in Resources */,
 				91D44B841E5E06F1005A610E /* profile.jpg in Resources */,
 				918DC5B31E6335B5007A1C3B /* pruneheader.jpg in Resources */,
@@ -482,6 +517,7 @@
 			files = (
 				91D44B601E5DFCFE005A610E /* ViewControllerFourth.m in Sources */,
 				91D44B7D1E5E02B8005A610E /* ViewControllerFifth.m in Sources */,
+				9195FBF61E6EE37400382A6E /* ViewControllerUserLocation.m in Sources */,
 				9180FB621E5C50390034CD59 /* ViewController.m in Sources */,
 				917FA3641E65A5BB00B9BBAB /* ViewControllerLabatory.m in Sources */,
 				9180FB961E5C68590034CD59 /* ViewControllerThird.m in Sources */,
@@ -489,7 +525,9 @@
 				9180FB5F1E5C50390034CD59 /* AppDelegate.m in Sources */,
 				9180FB5C1E5C50390034CD59 /* main.m in Sources */,
 				91D44B801E5E0630005A610E /* CustomTableViewCell.m in Sources */,
+				9195FC011E6EE95E00382A6E /* Annotation.m in Sources */,
 				919704FD1E5EAF0C003C9566 /* DataCenter.m in Sources */,
+				9195FBFE1E6EE84E00382A6E /* ViewControllerDeveloperLocation.m in Sources */,
 				9180FB931E5C68430034CD59 /* ViewControllerFirst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
