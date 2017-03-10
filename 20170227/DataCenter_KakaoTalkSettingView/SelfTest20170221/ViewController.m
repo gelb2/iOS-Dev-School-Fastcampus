@@ -354,6 +354,9 @@
 //셀 눌렀을 때 다른 뷰로 가게 하는 메소드
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    //셀 눌렀을 시 다른 뷰로 이동하면서 '선택'이 풀리도록 설정
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
             ViewControllerThird *thirdView = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewControllerThird"];

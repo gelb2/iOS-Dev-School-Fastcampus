@@ -99,8 +99,8 @@
 //        [self.navigationController pushViewController:fifthView animated:YES];
 //    }
 //    
-
-    
+    //셀을 클릭 시 다른 뷰로 이동하고, 그와 동시에 선택이 해제됨
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

@@ -28,6 +28,7 @@ const CGFloat LONGITUDE = 126.993521;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+  
     
     ///////////////////////////* 지도 만들어 보고 특정 위치 바로 표시해보기 예제 *////////////
     
@@ -70,10 +71,10 @@ const CGFloat LONGITUDE = 126.993521;
         
     }
     
+
     return newAnnotation;
     
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
