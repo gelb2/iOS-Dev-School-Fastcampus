@@ -21,6 +21,14 @@ const CGFloat LONGITUDE = 126.993521;
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapViewTest;
 
+
+@property (weak, nonatomic) UIAlertController *alertController;
+
+@property (weak, nonatomic) UIAlertAction *okAction;
+
+@property (weak, nonatomic) UIAlertAction *cancelAction;
+
+
 @end
 
 @implementation ViewControllerDeveloperLocation
@@ -28,7 +36,25 @@ const CGFloat LONGITUDE = 126.993521;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-  
+    
+    
+    
+    ////////////* 탭 제스처 레코그나이저 객체 생성 *////////////////////
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]init];
+    [tapGesture addTarget:self action:@selector(tapAlert:)];
+    tapGesture.numberOfTapsRequired = 5;
+    [self.view addGestureRecognizer:tapGesture];
+    
+    
+//        //////////////////////* 얼럿 컨트롤러 만들기 및 자동으로 띄우기 *//////////////////////////////
+//    
+//        self.alertController = [UIAlertController alertControllerWithTitle:@"스페셜 이벤트" message:@"개발자를 잡으면 수제맥주가 공짜 ^_^" preferredStyle:UIAlertControllerStyleAlert];
+//        self.okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:nil];
+//        self.cancelAction = [UIAlertAction actionWithTitle:@"취소" style:UIAlertActionStyleDestructive handler:nil];
+//        [self.alertController addAction:self.okAction];
+//        [self.alertController addAction:self.cancelAction];
+//        
+    
     
     ///////////////////////////* 지도 만들어 보고 특정 위치 바로 표시해보기 예제 *////////////
     
@@ -73,6 +99,13 @@ const CGFloat LONGITUDE = 126.993521;
     
 
     return newAnnotation;
+    
+}
+
+- (void)tapAlert:(UIGestureRecognizer *)sender{
+    
+//    [self presentViewController:self.alertController animated:YES completion:nil];
+    NSLog(@"tapped");
     
 }
 

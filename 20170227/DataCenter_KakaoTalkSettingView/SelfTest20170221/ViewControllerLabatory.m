@@ -14,12 +14,6 @@
 @interface ViewControllerLabatory ()
 <UITableViewDelegate, UITableViewDataSource>
 
-//
-//@property (weak, nonatomic) UIAlertController *alertController;
-//
-//@property (weak, nonatomic) UIAlertAction *okAction;
-//
-//@property (weak, nonatomic) UIAlertAction *cancelAction;
 
 @end
 
@@ -35,17 +29,7 @@
     tableView.dataSource = self;
     [self.view addSubview:tableView];
     
-//    
-//    //////////////////////* 얼럿 컨트롤러 만들기 및 자동으로 띄우기 *//////////////////////////////
-//    
-//    self.alertController = [UIAlertController alertControllerWithTitle:@"스페셜 이벤트" message:@"개발자를 잡으면 수제맥주가 공짜 ^_^" preferredStyle:UIAlertControllerStyleAlert];
-//    self.okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:nil];
-//    self.cancelAction = [UIAlertAction actionWithTitle:@"취소" style:UIAlertActionStyleDestructive handler:nil];
-//    [self.alertController addAction:self.okAction];
-//    [self.alertController addAction:self.cancelAction];
-//    [self presentViewController:self.alertController animated:YES completion:nil];
-//    
-    
+
 }
 
 ///////////////* 섹션 갯수 설정 *///////////////////////////
