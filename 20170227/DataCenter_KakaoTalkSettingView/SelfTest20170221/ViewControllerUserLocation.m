@@ -35,6 +35,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.navigationItem.title = @"My Location";
+    
     //////////////*사용자의 위치 바로 지도에 표시해보기 예제 *////////////////////
     
     self.locationManager = [[CLLocationManager alloc]init];

@@ -27,6 +27,7 @@ const CGFloat LONGITUDE = 126.993521;
 @property (weak, nonatomic) UIAlertAction *okAction;
 
 @property (weak, nonatomic) UIAlertAction *cancelAction;
+@property (weak, nonatomic) IBOutlet UIButton *test;
 
 
 @end
@@ -37,7 +38,7 @@ const CGFloat LONGITUDE = 126.993521;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
+    self.navigationItem.title = @"Developer Location";
     
     ////////////* 탭 제스처 레코그나이저 객체 생성 *////////////////////
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]init];
@@ -54,7 +55,7 @@ const CGFloat LONGITUDE = 126.993521;
 //        [self.alertController addAction:self.okAction];
 //        [self.alertController addAction:self.cancelAction];
 //        
-    
+//    
     
     ///////////////////////////* 지도 만들어 보고 특정 위치 바로 표시해보기 예제 *////////////
     
@@ -68,10 +69,10 @@ const CGFloat LONGITUDE = 126.993521;
     
     Annotation *annotationTest = [[Annotation alloc]initWithTitle:@"myPosition" AndCoordinate:coordinate];
     [self.mapViewTest addAnnotation:annotationTest];
-
     
     
 }
+
 
 ////////////////////* 핀 위한 델리게이트 메소드의 작성, 셀의 deque설정과 유사함 */////////////////
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation{
