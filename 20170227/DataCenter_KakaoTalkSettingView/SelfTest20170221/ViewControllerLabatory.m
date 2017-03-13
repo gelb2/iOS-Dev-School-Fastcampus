@@ -134,8 +134,9 @@
     //    }
     //    
     
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
