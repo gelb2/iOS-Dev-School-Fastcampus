@@ -19,14 +19,14 @@ const CGFloat LONGITUDE = 126.993521;
 @interface ViewControllerDeveloperLocation ()
 <MKMapViewDelegate>
 
-@property (weak, nonatomic) IBOutlet MKMapView *mapViewTest;
+@property (nonatomic) IBOutlet MKMapView *mapViewTest;
 
 
-@property (weak, nonatomic) UIAlertController *alertController;
+@property (nonatomic) UIAlertController *alertController;
 
-@property (weak, nonatomic) UIAlertAction *okAction;
+@property (nonatomic) UIAlertAction *okAction;
 
-@property (weak, nonatomic) UIAlertAction *cancelAction;
+@property (nonatomic) UIAlertAction *cancelAction;
 @property (weak, nonatomic) IBOutlet UIButton *test;
 
 
@@ -48,14 +48,14 @@ const CGFloat LONGITUDE = 126.993521;
     
     
 //        //////////////////////* 얼럿 컨트롤러 만들기 및 자동으로 띄우기 *//////////////////////////////
-//    
-//        self.alertController = [UIAlertController alertControllerWithTitle:@"스페셜 이벤트" message:@"개발자를 잡으면 수제맥주가 공짜 ^_^" preferredStyle:UIAlertControllerStyleAlert];
-//        self.okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:nil];
-//        self.cancelAction = [UIAlertAction actionWithTitle:@"취소" style:UIAlertActionStyleDestructive handler:nil];
-//        [self.alertController addAction:self.okAction];
-//        [self.alertController addAction:self.cancelAction];
-//        
-//    
+    
+        self.alertController = [UIAlertController alertControllerWithTitle:@"스페셜 이벤트" message:@"개발자를 잡으면 수제맥주가 공짜 ^_^" preferredStyle:UIAlertControllerStyleAlert];
+        self.okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:nil];
+        self.cancelAction = [UIAlertAction actionWithTitle:@"취소" style:UIAlertActionStyleDestructive handler:nil];
+        [self.alertController addAction:self.okAction];
+        [self.alertController addAction:self.cancelAction];
+        
+    
     
     ///////////////////////////* 지도 만들어 보고 특정 위치 바로 표시해보기 예제 *////////////
     
@@ -108,6 +108,14 @@ const CGFloat LONGITUDE = 126.993521;
 //    [self presentViewController:self.alertController animated:YES completion:nil];
     NSLog(@"tapped");
     
+}
+
+//얼럿컨트롤러는 타입을 위크로 설정할 시 주의해야 함...왜냐하면 weak로 설정된 것은 viewdidload가 불리고 나서 사라져 버린다...
+- (void)viewDidAppear:(BOOL)animated{
+    //뷰와 관련된 메소드들은 한 번 super 가 해당 메소드를 호출해 주어야 함
+    [super viewDidAppear:animated];
+    
+    [self presentViewController:self.alertController animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
