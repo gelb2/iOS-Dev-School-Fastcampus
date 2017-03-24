@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  SegueTest
+//
+//  Created by ji jun young on 2017. 3. 24..
+//  Copyright © 2017년 Fastcampus. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <UIKit/UIKit.h>
+#import BaseBox.h
+
+
+#endif /* PrefixHeader_pch */
