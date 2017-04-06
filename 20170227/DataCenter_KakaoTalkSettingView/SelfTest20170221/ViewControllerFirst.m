@@ -24,9 +24,42 @@
 
 @implementation ViewControllerFirst
 
+
+- (void)simpleMethod:(void(^)(NSString *name))param{
+    NSLog(@"before StartBlock");
+    param(@"이건 파라미터인가?");
+    NSLog(@"after EndBlock");
+    
+}
+
+- (void)testMethod2{
+    __block NSInteger anInteger = 42;
+    void (^testBlock)(void) = ^{
+        NSLog(@"Integer is %ld", anInteger);
+        anInteger = 100;
+    };
+    
+    testBlock();
+    NSLog(@"Orginal Integer is %ld", anInteger);
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self testMethod2];
+    
+    [self simpleMethod:^(NSString *name) {
+        NSLog(@"inner Param : %@", name);
+    }];
+    
+    double (^multiplyTwoValves)(double, double) = ^(double firstValue, double secondValue){
+        return firstValue * secondValue;
+    };
+    double result = multiplyTwoValves(2, 4);
+    NSLog(@"%lf", result);
+    
+    
     
     //아이디,패스워드,로그인 버튼 생성 위한 기본 수치 선언
     

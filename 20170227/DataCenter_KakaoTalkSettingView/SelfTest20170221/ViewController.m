@@ -19,6 +19,9 @@
 @property NSArray *textArraySection1;
 @property NSArray *imageArraySection0;
 @property NSArray *imageArraySection1;
+@property UIAlertController *alertController;
+@property UIAlertAction *okAction;
+@property UIAlertAction *cancelAction;
 
 @end
 
@@ -28,11 +31,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    /////////////////얼럿 컨트롤러 생성///////////////////
+    self.alertController = [UIAlertController alertControllerWithTitle:@"알림" message:@"해당 Row는 공사중입니다" preferredStyle:UIAlertControllerStyleAlert];
+    self.okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"화인을 눌렀음");
+    }];
+    self.cancelAction = [UIAlertAction actionWithTitle:@"취소" style:UIAlertActionStyleDestructive handler:nil];
+    [self.alertController addAction:self.okAction];
+    [self.alertController addAction:self.cancelAction];
+    
     /////////////////텍스트 어레이, 이미지 어레이 생성////////////////////
     self.textArraySection0 = [[NSArray alloc]initWithObjects:@"공지사항", @"실험실(테이블뷰가 있는 메인)", @"버전정보", nil];
     self.textArraySection1 = [[NSArray alloc] initWithObjects:@"개인 및 보안", @"알림 및 친구(스위치가 있는 메인)",@"채팅", @"화면",@"게임(테이블뷰가 있는 메인)",@"기타", nil];
-    
-    
     
 //네비게이션바 세팅 관련 부분 /////////////////////////////////////////////////////////////////
     
@@ -346,8 +356,11 @@
 //테스트 결과 NSuserDefault를 통한 스위치 켜고 껐을 시 데이터 저장은 잘 되는 듯 함...이제 스위치를 진짜로 켜고 끄는 것을 저장하게끔 하면 됨...setBOOL
 
 - (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
-    
+    [self presentViewController:self.alertController animated:YES completion:^{
+        NSLog(@"얼럿 컨트롤러가 띄워짐");
+    }];
 
 }
 
@@ -385,12 +398,12 @@
         
     }
     else{
+        
     ViewControllerThird *thirdView = [self.storyboard instantiateViewControllerWithIdentifier:@"ViewControllerThird"];
     [self.navigationController pushViewController:thirdView animated:YES];
     }
     
 }
-
 
 
 - (void)didReceiveMemoryWarning {
