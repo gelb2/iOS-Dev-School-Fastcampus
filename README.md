@@ -1,4 +1,4 @@
-####JunYoung Jee
+<img src="https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/blob/master/이미지%20전용%20폴더/TitleJee.png"/>
 
 ### CONTENTS
 #### 1. 프로젝트
