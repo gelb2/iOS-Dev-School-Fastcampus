@@ -21,7 +21,7 @@
   - [클래스와 상속, 재정의, 은닉화에 관하여]
   - [초기화메소드의 작성과 구현, 매개변수 + 손코딩 간략 피드백]
   - [클래스와 클래스 메소드, 인스턴스메소드 및 캐스팅과 파라미터에 관하여]
-  - [IF문, 논리연산자, 비교연사자 및 도형만들기 실습 리뷰를 통한 보강]
+  - [IF문, 논리연산자, 비교연산자 및 도형만들기 실습 리뷰를 통한 보강]
   - [Switch 구문에 관하여]
   - [While문과 For문에 관하여]
   - [UiView 기본 사항에 대하여]
@@ -54,7 +54,7 @@
 [클래스와 상속, 재정의, 은닉화에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170119>
 [초기화메소드의 작성과 구현, 매개변수 + 손코딩 간략 피드백]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170120>
 [클래스와 클래스 메소드, 인스턴스메소드 및 캐스팅과 파라미터에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170123>
-[IF문, 논리연산자, 비교연사자 및 도형만들기 실습 리뷰를 통한 보강]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170124>
+[IF문, 논리연산자, 비교연산자 및 도형만들기 실습 리뷰를 통한 보강]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170124>
 [Switch 구문에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170131>
 [While문과 For문에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170201>
 [UiView 기본 사항에 대하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170202>
