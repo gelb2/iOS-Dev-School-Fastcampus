@@ -68,7 +68,7 @@
     self.id.textColor = [UIColor whiteColor];
     self.id.textAlignment = NSTextAlignmentCenter;
     self.id.borderStyle = UITextBorderStyleNone;
-    self.id.placeholder = @"Name";
+    self.id.placeholder = @"Name : jun";
     self.id.delegate = self;
     self.id.tag = 100;
     [self.mainScrollView addSubview:self.id];
@@ -79,7 +79,7 @@
     self.pw.textColor = [UIColor whiteColor];
     self.pw.textAlignment = NSTextAlignmentCenter;
     self.pw.borderStyle = UITextBorderStyleNone;
-    self.pw.placeholder = @"Passcode";
+    self.pw.placeholder = @"Passcode : jyjee";
     self.pw.delegate = self;
     self.pw.tag = 200;
     [self.mainScrollView addSubview:self.pw];
