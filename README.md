@@ -36,8 +36,10 @@
   - [카테고리와 클래스 익스텐션]
   - [Segue, SizeClass, PCH에 관하여]
 
+#### 5. 과제.   
+- [자판기 만들기]
   
-#### 5. 연락처
+#### 6. 연락처
   - e-mail: rainmaker8492@gmail.com
   - phone: 010-6211-3163
 
@@ -67,4 +69,5 @@
 [Thread와 GCD에 대하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170313>
 [네트워크의 기초사항]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170315>
 [카테고리와 클래스 익스텐션]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170320>
-[Segue, SizeClass, PCH에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170324>
+[Segue, SizeClass, PCH에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170324>   
+[자판기 만들기]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/7c8632e026864e1b4f3177c2783bacbdb43ba584/20170212>
