@@ -32,7 +32,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     /////////////////얼럿 컨트롤러 생성///////////////////
-    self.alertController = [UIAlertController alertControllerWithTitle:@"알림" message:@"해당 Row는 공사중입니다" preferredStyle:UIAlertControllerStyleAlert];
+    self.alertController = [UIAlertController alertControllerWithTitle:@"알림" message:@"아직 공사중인 곳이 많습니다" preferredStyle:UIAlertControllerStyleAlert];
     self.okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         NSLog(@"화인을 눌렀음");
     }];
