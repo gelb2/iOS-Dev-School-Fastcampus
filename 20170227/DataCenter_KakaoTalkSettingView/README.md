@@ -2,6 +2,9 @@
 
 ### 카카오톡 설정창 UI 만들어보기
 
+![샘플이미지1](https://github.com/gelb2/iOS-Dev-School-Fastcampus/blob/master/20170227/DataCenter_KakaoTalkSettingView/ReadmeImages/sampleImage1.png)    
+![샘플이미지2](https://github.com/gelb2/iOS-Dev-School-Fastcampus/blob/master/20170227/DataCenter_KakaoTalkSettingView/ReadmeImages/sampleImage2.png)
+
 - 카카오톡 UI를 만들어 보는 과제입니다
 - 기본 UI를 만들고 그 후에 배운 싱글턴, 지도, 얼럿 컨트롤러 등을 추가했습니다.
 - 게임 Row의 데이터는 데이터센터에서 싱글턴 형태로 불러옵니다.
