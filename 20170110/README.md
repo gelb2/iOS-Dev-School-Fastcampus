@@ -1,9 +1,9 @@
-###DAY1.20170110
+### DAY1.20170110
 
-##컴퓨터공학 입문 코스##
+## 컴퓨터공학 입문 코스
 
 
-###*각 용어의 정의 및 기본 정보*
+### *각 용어의 정의 및 기본 정보*
 
 * 프로그래머 : 프로그래밍을 하는 사람을 의미함
 
@@ -68,7 +68,7 @@ CPU가 그 예시임.
 ***따라서 병목이 없다***   
 구성에 비용이 많이 들며 복잡하다. 이는 데이터가 가는 길을 일일이 다 뚫어주어야 하기 때문이다.    
 
-![하버드 구조](https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/blob/master/이미지%20전용%20폴더/harvardstructure.jpg?raw=true)
+![하버드 구조](https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/blob/master/imageFolder/harvardstructure.jpg?raw=true)
 
 * 폰 노이만 구조   
 명령어와 데이터가 하나의 메모리에 통합되어 있음.   
@@ -80,7 +80,7 @@ CPU가 그 예시임.
 >메모리는 CPU의 속도를 따라가지 못한다.     
 >즉, 메모리의 읽기 쓰기 시간이 더 길기 때문에 CPU는 일을 하는 시간보다 메모리를 기다리는 시간이 길어짐을 의미함.    
 
-![폰노이만 구조](https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/blob/master/이미지%20전용%20폴더/VonNeumann_Architecture.jpg?raw=true)
+![폰노이만 구조](https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/blob/master/imageFolder/VonNeumann_Architecture.jpg?raw=true)
 
 * 폰 노이만 구조와 하버드 구조…더 나은 것은?    
 폰 노이만 구조에서 데이터가 CPU와 메모리를 왕복할 때, CPU는 캐쉬 메모리에 일정 데이터를 복사해 둠…메모리가 데이터를 캐쉬메모리에 계속 밀어주고 CPU는 계속 처리하는 것….   
