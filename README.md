@@ -46,10 +46,10 @@
 
 [개인 과외 연결 서비스 Gori]: <https://github.com/fornew21c/Gori>
 [혼자 술마시는 사람을 위한 레시피 혼술집]: <https://github.com/draupnir45/honsulzip>
-[Git에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/commit/ea968957fae8db9ebe2e3ee41752a398efc12667>
+[Git에 관하여]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/master/20170109>
 [프로그래밍과 컴퓨터, 그리고 컴퓨터의 구성에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170110>
 [컴퓨터의 동작, 운영체제, 알고리즘, 자료구조에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170111>
-[데이터베이스, 프로토콜, 네트워크에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/commit/82a24a4ae8bc83dec76a28affd251468cf933510>
+[데이터베이스, 프로토콜, 네트워크에 관하여]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/master/20170112>
 [소프트웨어공학과 프로그래밍 언어에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170113>
 [Xcdoe 기본사항 둘러보기]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170116>
 [프로퍼티, 메소드의 정의 및 객체 생성에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170117>
