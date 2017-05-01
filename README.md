@@ -61,7 +61,7 @@
 [Switch 구문에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170131>
 [While문과 For문에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170201>
 [UiView 기본 사항에 대하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170202>
-[UiLabel 과 UiButton에 관하여 업로드]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170203>
+[UiLabel 과 UiButton에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170203>
 [프로토콜과 델리게이트 + 자판기 만들기 과제의 소소한 피드백]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170206>
 [자료구조, 포인터, 배열, 딕셔너리, 연결리스트에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170208>
 [스택, 큐, 정렬알고리즘에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170209>
