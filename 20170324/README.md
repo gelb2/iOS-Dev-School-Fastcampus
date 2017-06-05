@@ -4,36 +4,38 @@
 
 ### Segue
 
-- Segue   
-앱의 인터페이스 흐름을 정의하는 데에 쓰임
-앱의 스토리보드 파일의 두개의 뷰 컨트롤러 사이의 전환을 정의함
-시작점은 버튼, 테이블뷰의 로우, 제스처 등으로 시작하며 끝점은 진행될 다음 뷰컨트롤러임
-일반적으로 다음 뷰컨트롤러로 진행되는 것을 가르키나 unwind segue는 뷰컨트롤러를 닫는 역할을 할 수 있음
-segue도 object임
+#### Segue   
+* 앱의 인터페이스 흐름을 정의하는 데에 쓰임
+* 앱의 스토리보드 파일의 두개의 뷰 컨트롤러 사이의 전환을 정의함
+* 시작점은 버튼, 테이블뷰의 로우, 제스처 등으로 시작하며 끝점은 진행될 다음 뷰컨트롤러임
+* 일반적으로 다음 뷰컨트롤러로 진행되는 것을 가르키나 unwind segue는 뷰컨트롤러를 닫는 역할을 할 수 있음
 
-- present modally : 밑 —>위
+> segue도 object임
+
+> - present modally : 밑 —>위
 - present as popover : 위 —>밑
 
-- Modifying a Segue’s Behavior at Runtime
-shouldPerformSegueWithIdentifier:sender:  
+* `Modifying a Segue’s Behavior at Runtime
+shouldPerformSegueWithIdentifier:sender:`  
 == 오버라이드 가능한 메소드임. 오버라이드를 하면 segue를 진행 시킬지 말지를 결정할 수 있음.   
-prepareForSegue:sender:  
+* prepareForSegue:sender:  
 ==역시 오버라이드 가능함
 
-- Unwind Segue  
+* Unwind Segue  
 되돌아갈 뷰컨트롤러를 선택  
 선택된 뷰컨트롤러에 다음 메소드를 정의함.   
-- (IBAction)myUnwindAction:(UIStoryboardSegue*)unwindSegue.       
+* `(IBAction)myUnwindAction:(UIStoryboardSegue*)unwindSegue`.       
 >해당 메소드는 이름 변경 가능함    
 >되돌아갈 “목적지”가 있어야 함.   
 >스토리보드에서 Drag로 설정하기 전에 메소드를 먼저 만들어야 Drag로 설정 가능.   
 >Unwind Segue 액션이 필요한 뷰컨트롤러에 액션과 Exit를 Drag로 연결한다
 
-- Manual Segue.   
-[self performSegueWithIdentifier:@“SegueName” sender:self];
-—개발자가 직접 작성 및 실행해야 함
-—오버라이드 불가함
-—코드로서 Segue를 실행하겠다고 하고, 해당 코드를 직접 작성하는 것임
+* Manual Segue.   
+`[self performSegueWithIdentifier:@“SegueName” sender:self];`
+
+> * 개발자가 직접 작성 및 실행해야 함
+* 오버라이드 불가함
+* 코드로서 Segue를 실행하겠다고 하고, 해당 코드를 직접 작성하는 것임
 
 ### SizeClass
 
