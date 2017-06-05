@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		914002A61ED2C4D100D8CC77 /* PWMake.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914002A51ED2C4D100D8CC77 /* PWMake.storyboard */; };
+		914002A91ED2C4EC00D8CC77 /* DiaryPWMakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914002A81ED2C4EC00D8CC77 /* DiaryPWMakeViewController.m */; };
+		9157738B1EC9590D001DEAFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157738A1EC9590D001DEAFD /* main.m */; };
+		9157738E1EC9590D001DEAFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157738D1EC9590D001DEAFD /* AppDelegate.m */; };
+		915773911EC9590D001DEAFD /* DiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915773901EC9590D001DEAFD /* DiaryViewController.m */; };
+		915773941EC9590D001DEAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915773921EC9590D001DEAFD /* Main.storyboard */; };
+		915773961EC9590D001DEAFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915773951EC9590D001DEAFD /* Assets.xcassets */; };
+		915773991EC9590D001DEAFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915773971EC9590D001DEAFD /* LaunchScreen.storyboard */; };
+		915773A51EC95C37001DEAFD /* DiaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 915773A41EC95C37001DEAFD /* DiaryTableViewCell.m */; };
+		915773A81EC96F32001DEAFD /* DiaryPostingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915773A71EC96F32001DEAFD /* DiaryPostingViewController.m */; };
+		915773AA1EC96F4D001DEAFD /* Posting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915773A91EC96F4D001DEAFD /* Posting.storyboard */; };
+		915773B01EC99044001DEAFD /* DiaryMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915773AF1EC99044001DEAFD /* DiaryMonthViewController.m */; };
+		915773B31EC995B9001DEAFD /* DiaryYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915773B21EC995B9001DEAFD /* DiaryYearViewController.m */; };
+		915773B51EC99B2C001DEAFD /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915773B41EC99B2C001DEAFD /* Setting.storyboard */; };
+		915773B81EC99B46001DEAFD /* DiarySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915773B71EC99B46001DEAFD /* DiarySettingViewController.m */; };
+		91774E2D1ED05B84007A66E0 /* Keypad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91774E2C1ED05B84007A66E0 /* Keypad.storyboard */; };
+		91774E301ED05BA3007A66E0 /* DiaryKeypadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91774E2F1ED05BA3007A66E0 /* DiaryKeypadViewController.m */; };
+		91AD1AB51EE0057900D485F0 /* DiaryYearCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AD1AB41EE0057900D485F0 /* DiaryYearCollectionViewCell.m */; };
+		91DE6B3A1ECA9F18004F5A81 /* DiaryDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE6B391ECA9F18004F5A81 /* DiaryDataCenter.m */; };
+		91DE6B3D1ECADAE9004F5A81 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DE6B3C1ECADAE9004F5A81 /* LocalAuthentication.framework */; };
+		91F06DB91ED6E63E00427D4E /* DiaryMonthCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F06DB81ED6E63E00427D4E /* DiaryMonthCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		914002A51ED2C4D100D8CC77 /* PWMake.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PWMake.storyboard; sourceTree = "<group>"; };
+		914002A71ED2C4EC00D8CC77 /* DiaryPWMakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryPWMakeViewController.h; sourceTree = "<group>"; };
+		914002A81ED2C4EC00D8CC77 /* DiaryPWMakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryPWMakeViewController.m; sourceTree = "<group>"; };
+		915773861EC9590D001DEAFD /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9157738A1EC9590D001DEAFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9157738C1EC9590D001DEAFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9157738D1EC9590D001DEAFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9157738F1EC9590D001DEAFD /* DiaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiaryViewController.h; sourceTree = "<group>"; };
+		915773901EC9590D001DEAFD /* DiaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaryViewController.m; sourceTree = "<group>"; };
+		915773931EC9590D001DEAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		915773951EC9590D001DEAFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		915773981EC9590D001DEAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9157739A1EC9590D001DEAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915773A31EC95C37001DEAFD /* DiaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryTableViewCell.h; sourceTree = "<group>"; };
+		915773A41EC95C37001DEAFD /* DiaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryTableViewCell.m; sourceTree = "<group>"; };
+		915773A61EC96F32001DEAFD /* DiaryPostingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryPostingViewController.h; sourceTree = "<group>"; };
+		915773A71EC96F32001DEAFD /* DiaryPostingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryPostingViewController.m; sourceTree = "<group>"; };
+		915773A91EC96F4D001DEAFD /* Posting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Posting.storyboard; sourceTree = "<group>"; };
+		915773AE1EC99044001DEAFD /* DiaryMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryMonthViewController.h; sourceTree = "<group>"; };
+		915773AF1EC99044001DEAFD /* DiaryMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryMonthViewController.m; sourceTree = "<group>"; };
+		915773B11EC995B9001DEAFD /* DiaryYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryYearViewController.h; sourceTree = "<group>"; };
+		915773B21EC995B9001DEAFD /* DiaryYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryYearViewController.m; sourceTree = "<group>"; };
+		915773B41EC99B2C001DEAFD /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		915773B61EC99B46001DEAFD /* DiarySettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiarySettingViewController.h; sourceTree = "<group>"; };
+		915773B71EC99B46001DEAFD /* DiarySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiarySettingViewController.m; sourceTree = "<group>"; };
+		91774E2C1ED05B84007A66E0 /* Keypad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keypad.storyboard; sourceTree = "<group>"; };
+		91774E2E1ED05BA3007A66E0 /* DiaryKeypadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryKeypadViewController.h; sourceTree = "<group>"; };
+		91774E2F1ED05BA3007A66E0 /* DiaryKeypadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryKeypadViewController.m; sourceTree = "<group>"; };
+		91AD1AB31EE0057900D485F0 /* DiaryYearCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryYearCollectionViewCell.h; sourceTree = "<group>"; };
+		91AD1AB41EE0057900D485F0 /* DiaryYearCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryYearCollectionViewCell.m; sourceTree = "<group>"; };
+		91DE6B381ECA9F18004F5A81 /* DiaryDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryDataCenter.h; sourceTree = "<group>"; };
+		91DE6B391ECA9F18004F5A81 /* DiaryDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryDataCenter.m; sourceTree = "<group>"; };
+		91DE6B3C1ECADAE9004F5A81 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		91F06DB71ED6E63E00427D4E /* DiaryMonthCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryMonthCollectionViewCell.h; sourceTree = "<group>"; };
+		91F06DB81ED6E63E00427D4E /* DiaryMonthCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryMonthCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		915773831EC9590D001DEAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DE6B3D1ECADAE9004F5A81 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9157737D1EC9590D001DEAFD = {
+			isa = PBXGroup;
+			children = (
+				915773881EC9590D001DEAFD /* Diary */,
+				915773871EC9590D001DEAFD /* Products */,
+				91DE6B3B1ECADAE9004F5A81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		915773871EC9590D001DEAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				915773861EC9590D001DEAFD /* Diary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		915773881EC9590D001DEAFD /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				9157738C1EC9590D001DEAFD /* AppDelegate.h */,
+				9157738D1EC9590D001DEAFD /* AppDelegate.m */,
+				91DE6B381ECA9F18004F5A81 /* DiaryDataCenter.h */,
+				91DE6B391ECA9F18004F5A81 /* DiaryDataCenter.m */,
+				9157738F1EC9590D001DEAFD /* DiaryViewController.h */,
+				915773901EC9590D001DEAFD /* DiaryViewController.m */,
+				915773A31EC95C37001DEAFD /* DiaryTableViewCell.h */,
+				915773A41EC95C37001DEAFD /* DiaryTableViewCell.m */,
+				915773AE1EC99044001DEAFD /* DiaryMonthViewController.h */,
+				915773AF1EC99044001DEAFD /* DiaryMonthViewController.m */,
+				91F06DB71ED6E63E00427D4E /* DiaryMonthCollectionViewCell.h */,
+				91F06DB81ED6E63E00427D4E /* DiaryMonthCollectionViewCell.m */,
+				915773B11EC995B9001DEAFD /* DiaryYearViewController.h */,
+				915773B21EC995B9001DEAFD /* DiaryYearViewController.m */,
+				91AD1AB31EE0057900D485F0 /* DiaryYearCollectionViewCell.h */,
+				91AD1AB41EE0057900D485F0 /* DiaryYearCollectionViewCell.m */,
+				915773A61EC96F32001DEAFD /* DiaryPostingViewController.h */,
+				915773A71EC96F32001DEAFD /* DiaryPostingViewController.m */,
+				915773B61EC99B46001DEAFD /* DiarySettingViewController.h */,
+				915773B71EC99B46001DEAFD /* DiarySettingViewController.m */,
+				91774E2E1ED05BA3007A66E0 /* DiaryKeypadViewController.h */,
+				91774E2F1ED05BA3007A66E0 /* DiaryKeypadViewController.m */,
+				914002A71ED2C4EC00D8CC77 /* DiaryPWMakeViewController.h */,
+				914002A81ED2C4EC00D8CC77 /* DiaryPWMakeViewController.m */,
+				915773921EC9590D001DEAFD /* Main.storyboard */,
+				915773A91EC96F4D001DEAFD /* Posting.storyboard */,
+				915773B41EC99B2C001DEAFD /* Setting.storyboard */,
+				91774E2C1ED05B84007A66E0 /* Keypad.storyboard */,
+				914002A51ED2C4D100D8CC77 /* PWMake.storyboard */,
+				915773951EC9590D001DEAFD /* Assets.xcassets */,
+				915773971EC9590D001DEAFD /* LaunchScreen.storyboard */,
+				9157739A1EC9590D001DEAFD /* Info.plist */,
+				915773891EC9590D001DEAFD /* Supporting Files */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		915773891EC9590D001DEAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9157738A1EC9590D001DEAFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91DE6B3B1ECADAE9004F5A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DE6B3C1ECADAE9004F5A81 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		915773851EC9590D001DEAFD /* Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9157739D1EC9590D001DEAFD /* Build configuration list for PBXNativeTarget "Diary" */;
+			buildPhases = (
+				915773821EC9590D001DEAFD /* Sources */,
+				915773831EC9590D001DEAFD /* Frameworks */,
+				915773841EC9590D001DEAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diary;
+			productName = Diary;
+			productReference = 915773861EC9590D001DEAFD /* Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9157737E1EC9590D001DEAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Fastcampus;
+				TargetAttributes = {
+					915773851EC9590D001DEAFD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NN7QXHC8A3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 915773811EC9590D001DEAFD /* Build configuration list for PBXProject "Diary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9157737D1EC9590D001DEAFD;
+			productRefGroup = 915773871EC9590D001DEAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				915773851EC9590D001DEAFD /* Diary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		915773841EC9590D001DEAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91774E2D1ED05B84007A66E0 /* Keypad.storyboard in Resources */,
+				915773991EC9590D001DEAFD /* LaunchScreen.storyboard in Resources */,
+				915773AA1EC96F4D001DEAFD /* Posting.storyboard in Resources */,
+				914002A61ED2C4D100D8CC77 /* PWMake.storyboard in Resources */,
+				915773B51EC99B2C001DEAFD /* Setting.storyboard in Resources */,
+				915773961EC9590D001DEAFD /* Assets.xcassets in Resources */,
+				915773941EC9590D001DEAFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		915773821EC9590D001DEAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91774E301ED05BA3007A66E0 /* DiaryKeypadViewController.m in Sources */,
+				914002A91ED2C4EC00D8CC77 /* DiaryPWMakeViewController.m in Sources */,
+				915773A81EC96F32001DEAFD /* DiaryPostingViewController.m in Sources */,
+				915773911EC9590D001DEAFD /* DiaryViewController.m in Sources */,
+				915773B31EC995B9001DEAFD /* DiaryYearViewController.m in Sources */,
+				9157738E1EC9590D001DEAFD /* AppDelegate.m in Sources */,
+				91DE6B3A1ECA9F18004F5A81 /* DiaryDataCenter.m in Sources */,
+				91AD1AB51EE0057900D485F0 /* DiaryYearCollectionViewCell.m in Sources */,
+				91F06DB91ED6E63E00427D4E /* DiaryMonthCollectionViewCell.m in Sources */,
+				915773B01EC99044001DEAFD /* DiaryMonthViewController.m in Sources */,
+				915773B81EC99B46001DEAFD /* DiarySettingViewController.m in Sources */,
+				9157738B1EC9590D001DEAFD /* main.m in Sources */,
+				915773A51EC95C37001DEAFD /* DiaryTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		915773921EC9590D001DEAFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				915773931EC9590D001DEAFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		915773971EC9590D001DEAFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				915773981EC9590D001DEAFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9157739B1EC9590D001DEAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9157739C1EC9590D001DEAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9157739E1EC9590D001DEAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
+				INFOPLIST_FILE = Diary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyoungjee.develop.Diary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9157739F1EC9590D001DEAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
+				INFOPLIST_FILE = Diary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junyoungjee.develop.Diary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		915773811EC9590D001DEAFD /* Build configuration list for PBXProject "Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9157739B1EC9590D001DEAFD /* Debug */,
+				9157739C1EC9590D001DEAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9157739D1EC9590D001DEAFD /* Build configuration list for PBXNativeTarget "Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9157739E1EC9590D001DEAFD /* Debug */,
+				9157739F1EC9590D001DEAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9157737E1EC9590D001DEAFD /* Project object */;
+}
