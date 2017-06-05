@@ -48,7 +48,7 @@
   - phone: 010-6211-3163
 
 [개인 과외 연결 서비스 Gori]: <https://github.com/fornew21c/Gori>
-[a Diary. aka 恨 다이어리]: <https://github.com/fornew21c/Gori>
+[a Diary. aka 恨 다이어리]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/master/20170515>
 [혼자 술마시는 사람을 위한 레시피 혼술집]: <https://github.com/draupnir45/honsulzip>
 [Git에 관하여]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/master/20170109>
 [프로그래밍과 컴퓨터, 그리고 컴퓨터의 구성에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170110>
