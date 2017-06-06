@@ -32,7 +32,7 @@
   - [프로토콜과 델리게이트 + 자판기 만들기 과제의 소소한 피드백]
   - [자료구조, 포인터, 배열, 딕셔너리, 연결리스트에 관하여]
   - [스택, 큐, 정렬알고리즘에 관하여]
-  - [테이블뷰에 관하여]
+  - [테이블뷰와 테이블뷰 셀에 관하여]
   - [특강 : UX에 대하여]
   - [Thread와 GCD에 대하여]
   - [네트워크의 기초사항]
@@ -69,7 +69,7 @@
 [프로토콜과 델리게이트 + 자판기 만들기 과제의 소소한 피드백]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170206>
 [자료구조, 포인터, 배열, 딕셔너리, 연결리스트에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170208>
 [스택, 큐, 정렬알고리즘에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170209>
-[테이블뷰에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170215>
+[테이블뷰와 테이블뷰 셀에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170215>
 [특강 : UX에 대하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170217>
 [Thread와 GCD에 대하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170313>
 [네트워크의 기초사항]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170315>
