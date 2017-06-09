@@ -37,6 +37,7 @@
   - [테이블뷰와 테이블뷰 셀에 관하여]
   - [특강 : UX에 대하여]
   - [UIViewController, NavigationController, Tab Bar에 대하여]
+  - [싱글턴, NSUserDefaults, NSNotificationCenter]
   - [Thread와 GCD에 대하여]
   - [네트워크의 기초사항]
   - [카테고리와 클래스 익스텐션]
@@ -77,6 +78,7 @@
 [테이블뷰와 테이블뷰 셀에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170215>
 [특강 : UX에 대하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170217>
 [UIViewController, NavigationController, Tab Bar에 대하여]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/master/20170220>
+[싱글턴, NSUserDefaults, NSNotificationCenter]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/master/20170223>
 [Thread와 GCD에 대하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170313>
 [네트워크의 기초사항]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170315>
 [카테고리와 클래스 익스텐션]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170320>
