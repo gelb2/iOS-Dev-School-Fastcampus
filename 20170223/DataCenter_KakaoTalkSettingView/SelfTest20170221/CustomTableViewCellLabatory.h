@@ -1,0 +1,17 @@
+//
+//  CustomTableViewCellLabatory.h
+//  SelfTest20170221
+//
+//  Created by ji jun young on 2017. 2. 28..
+//  Copyright © 2017년 Fastcampus. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface CustomTableViewCellLabatory : UITableViewCell
+
+@property NSArray *textArray;
+@property (nonatomic, weak) UIImageView *headerImage;
+@property (nonatomic, weak) UIView *bigView;
+
+@end
