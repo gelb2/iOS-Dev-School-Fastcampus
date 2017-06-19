@@ -74,6 +74,8 @@ Ex. 넥스트 버튼 누르면 화면전환 되는 것은 뷰 컨트롤러가 �
 ### UI 클래스 계층도    
 * 오버라이드를 통한 기능 구현에서 알 수 있듯이, 부모관계와 상속 가능 여부를 알아야 함
 
+<img src="https://github.com/gelb2/iOS-Dev-School-Fastcampus/blob/master/imageFolder/UIView.png"/>
+
 #### UI View 
 * 가장 기본이 되는 뷰
 * UIComponent들의 조합으로 화면이 구성되며, UIview를 상속받음…즉 iOS화면구성은 UIview의 집합으로 되어 있음
