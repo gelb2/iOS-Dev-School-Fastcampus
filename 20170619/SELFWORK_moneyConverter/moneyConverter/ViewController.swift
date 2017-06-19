@@ -25,23 +25,49 @@ class ViewController: UIViewController {
 
     
     @IBAction func convertMoney(_ sender: Any) {
-        let ratio : Double
-        switch currencySegment.selectedSegmentIndex {
-        case 0:
-            ratio = 0.00085
-        case 1:
-            ratio = 1200
-        default:
-            ratio = 1.0
+
+        //if let과 guard let은 기능상은 차이가 크게 없으나 if let 보다 guard let이 가독성이 더 좋다
+//        if let sourceCurrency = Currency(rawValue : currencySegment.selectedSegmentIndex){
+//        }
+        //sourceCurrency가 제대로 만들어 지지 않았을 경우를 위한 예외처리
+        guard let sourceCurrency = Currency(rawValue : currencySegment.selectedSegmentIndex) else {
+             print("Source Currency Error")
+            return
         }
         
-        let targetMoneyString : String
-        if let sourceMoney = Double(sourceMoneyField.text!){
-            targetMoneyString = "\(sourceMoney * ratio)"
-        }else{
-            targetMoneyString = "ERROR"
+        guard let sourceAmount = Double(sourceMoneyField.text!) else {
+            targetMoneyLabel.text = "Error"
+            
+            return
         }
         
+        let sourceMoney = Money(sourceAmount, Currency : sourceCurrency)
+        
+//         필요 없는 부분이므로 주석 처리
+//        let ratio : Double
+//        switch currencySegment.selectedSegmentIndex {
+//        case 0:
+//            ratio = 0.00085
+//        case 1:
+//            ratio = 1200
+//        default:
+//            ratio = 1.0
+//        }
+        
+        var targetMoneyString = ""
+        
+        for i in 0..<4{
+            targetMoneyString += sourceMoney.valueInCurrency(currency: Currency.init(rawValue: i)!)
+            targetMoneyString += "\r\n"
+        }
+        
+//        
+//        if let sourceMoney = Double(sourceMoneyField.text!){
+//            targetMoneyString = "\(sourceMoney * ratio)"
+//        }else{
+//            targetMoneyString = "ERROR"
+//        }
+//        
         targetMoneyLabel.text = targetMoneyString
         
     }

@@ -60,7 +60,7 @@ struct Money {
     
     //환율과 심볼담은 스트링 리턴해주는 메소드
     
-    func valueInCureency(currency:Currency) -> String {
+    func valueInCurrency(currency:Currency) -> String {
         return "\(currency.symbol)" + "\(usdollar * currency.ratio)"
     }
     
