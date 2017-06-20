@@ -23,6 +23,10 @@
   - 데이터의 디테일한 정보를 표현할때 사용
   - 예: 세팅
 
+<img src = "https://github.com/gelb2/iOS-Dev-School-Fastcampus/blob/master/imageFolder/tableView.png">
+
+<img src = "https://github.com/gelb2/iOS-Dev-School-Fastcampus/blob/master/imageFolder/tableViewDetail.png">
+
 #### DataSource
   - TableView에서 데이터를 관리할 역할
   - 예: Section, Row, Cell, Header, Footer 등등
@@ -42,6 +46,11 @@
 
 #### Cell Style
   - default, subtitle, value1, value2가 있다. 
+  
+- 테이블뷰 셀 (Frmo Swift 강좌)
+
+<img src = "https://github.com/gelb2/iOS-Dev-School-Fastcampus/blob/master/imageFolder/tableView_SDK_BasicCell_CustomCell.png">
+
   
 #### reuse 와 dequeue
 * 공통적인 레이아웃을 사용하여 여러번 화면을 보여줄 필요가 있는 경우 뷰를 재사용한다
