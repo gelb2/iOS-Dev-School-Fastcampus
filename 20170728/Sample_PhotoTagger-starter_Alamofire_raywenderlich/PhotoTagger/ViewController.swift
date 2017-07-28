@@ -24,6 +24,7 @@
 //알라모파이어 튜토리얼 : 코드 복붙해보기 + 예제파일 받기
 //http://rhammer.tistory.com/115
 //알라모파이어 튜토리얼 번역
+//commit test
 
 import UIKit
 import Alamofire
