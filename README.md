@@ -88,4 +88,4 @@
 [Segue, SizeClass, PCH에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170324>   
 [자판기 만들기 과제]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/7c8632e026864e1b4f3177c2783bacbdb43ba584/20170212>
 [카카오톡 UI 만들어보기 과제]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/master/20170223/DataCenter_KakaoTalkSettingView>
-[Drop Da Beat]: <>
+[Drop Da Beat]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/master/20180130>
