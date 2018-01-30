@@ -7,17 +7,20 @@
 #### 1. 개인 프로젝트(현재 진행 중)
   - [a Diary. aka 恨 다이어리]
 
-#### 2. 해커톤
+#### 2. 패스트캠퍼스 해커톤
   - [혼자 술마시는 사람을 위한 레시피 혼술집]
 
-#### 3. 프로그래밍 개론
+#### 3. 재직 중 제작한 애플리케이션
+- [Drop Da Beat]
+
+#### 4. 프로그래밍 개론
   - [Git에 관하여]
   - [프로그래밍과 컴퓨터, 그리고 컴퓨터의 구성에 관하여]
   - [컴퓨터의 동작, 운영체제, 알고리즘, 자료구조에 관하여]
   - [데이터베이스, 프로토콜, 네트워크에 관하여]
   - [소프트웨어공학과 프로그래밍 언어에 관하여]
 
-#### 4. Objective-C 기초
+#### 5. Objective-C 기초
   - [Xcdoe 기본사항 둘러보기]
   - [프로퍼티, 메소드의 정의 및 객체 생성에 관하여]
   - [매개변수, 다형성, 타입에 관하여]
@@ -43,11 +46,11 @@
   - [카테고리와 클래스 익스텐션]
   - [Segue, SizeClass, PCH에 관하여]
 
-#### 5. 과제.   
+#### 6. 과제   
 - [자판기 만들기 과제]
 - [카카오톡 UI 만들어보기 과제]
   
-#### 6. 연락처
+#### 7. 연락처
   - e-mail: rainmaker8492@gmail.com
   - phone: 010-6211-3163
 
@@ -85,3 +88,4 @@
 [Segue, SizeClass, PCH에 관하여]: <https://github.com/gelb2/iOS-Dev-School-in-Fastcampus/tree/master/20170324>   
 [자판기 만들기 과제]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/7c8632e026864e1b4f3177c2783bacbdb43ba584/20170212>
 [카카오톡 UI 만들어보기 과제]: <https://github.com/gelb2/iOS-Dev-School-Fastcampus/tree/master/20170223/DataCenter_KakaoTalkSettingView>
+[Drop Da Beat]: <>
